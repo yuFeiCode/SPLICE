@@ -41,6 +41,10 @@ The line-level datasets (in the Line-level directory) contain the following colu
   
   - `src`: This folder stores the source code of GLANCE written in Python.
 
+  **ngram**  stores the source code of N-gram written in Java
+
+  **PMD** stores the source code of PMD written in Python 
+
 ## Environment Setup
 
 ### Python Environment Setup
@@ -49,7 +53,7 @@ The line-level datasets (in the Line-level directory) contain the following colu
 
     git clone <https://github.com/yuFeiCode/LL-SDP.git>
 
-2.download the datasets from the this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `DeepLineDP/datasets/original` and `GLANCE/Dataste/`
+2.download the datasets from the this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `SPLICE/Baseline-result/datasets/original/'
 
 3.use the following command to install required libraries in conda environment
 
@@ -109,14 +113,40 @@ The generated output is a csv file which contains the following information:
 
 The generated output is stored in `./output/prediction/DeepLineDP/within-release/`
 
-### **As for GLANCE**
+### **As for GLANCE and LineDP**
 
-In order to make it easier to obtain the classification results, you can enter the GLANCE folder and run it according to the following command regulation.
+In order to make it easier to obtain the result of GLANCE and Linedp, you can enter the GLANCE folder and run it according to the following command regulation.
 
-    python main.py 
+    python main.py
+
+### **As for N-gram**
+
+You can enter the ngram folder and run `n_gram.java`
+
+### **As for PMD**
+You need first downlaod the `pmd-dist-7.0.0-rc4-bin` from this [website](https://pmd.github.io/) and keep it in 'SPLICE/Baseline-result/PMD/', then you can get the resut of PMD according the following 
+command regulation.
+
+   python runForPMD.py
 
 ## Obtaining the Evaluation Result
 
+
+
+after you get the result of GLANCE and LineDP, you need create the following new folder:
+
+  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-EA/line_result/test/`
+  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-MD/line_result/test/`
+  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-LR/line_result/test/`
+  `SPLICE/Baseline-result/GLANCE/result/Glance_MD_full_threshold/line_result/test/'
+  'SPLICE/Baseline-result/GLANCE/result/MIT-LineDP/line_result/test/`
+
+and then you need copy the result 
+
+
+
+
+  
 Run `get_evaluation_result.R` to get the result of RQ1 and RQ2 (may run in IDE or by the following command)
 
 `Rscript  get_evaluation_result.R`
