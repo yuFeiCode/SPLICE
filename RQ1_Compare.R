@@ -365,7 +365,7 @@ names(sum_splice_S.line.result) = c("release", "IFA", "Recall20%LOC", "Effort@20
 names(sum_splice_G.line.result) = c("release", "IFA", "Recall20%LOC", "Effort@20%Recall", "FPA", "top5", "top10")
 names(sum_splice_F.line.result) = c("release", "IFA", "Recall20%LOC", "Effort@20%Recall", "FPA", "top5", "top10")
 
-#### get data results for models ####
+#### get data results of models ####
 write.csv(sum_splice_S.line.result, file = './RQ1_result/SPLICE-S.csv')
 write.csv(sum_splice_G.line.result, file = './RQ1_result/SPLICE-G.csv')
 write.csv(sum_splice_F.line.result, file = './RQ1_result/SPLICE-F.csv')
