@@ -53,7 +53,7 @@ The line-level datasets (in the Line-level directory) contain the following colu
 
     git clone <https://github.com/yuFeiCode/LL-SDP.git>
 
-2.download the datasets from the this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `SPLICE/Baseline-result/datasets/original/'
+2.download the datasets from the this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `SPLICE/Baseline-result/datasets/original/`
 
 3.use the following command to install required libraries in conda environment
 
@@ -124,32 +124,42 @@ In order to make it easier to obtain the result of GLANCE and Linedp, you can en
 You can enter the ngram folder and run `n_gram.java`
 
 ### **As for PMD**
-You need first downlaod the `pmd-dist-7.0.0-rc4-bin` from this [website](https://pmd.github.io/) and keep it in 'SPLICE/Baseline-result/PMD/', then you can get the resut of PMD according the following 
-command regulation.
+You need first downlaod the `pmd-dist-7.0.0-rc4-bin` from this [website](https://pmd.github.io/) and keep it in `SPLICE/Baseline-result/PMD/`, then you can get the resut of PMD according the following command regulation.
 
-   python runForPMD.py
-
+    python runForPMD.py
+   
 ## Obtaining the Evaluation Result
 
-
+### **Data preparation**
 
 after you get the result of GLANCE and LineDP, you need create the following new folder:
+ 
+   - `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-EA/line_result/test/`
+   
+   - `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-MD/line_result/test/`
+   
+   - `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-LR/line_result/test/`
+   
+   - `SPLICE/Baseline-result/GLANCE/result/Glance_MD_full_threshold/line_result/test/`
+   
+   - `SPLICE/Baseline-result/GLANCE/result/MIT-LineDP/line_result/test/`
 
-  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-EA/line_result/test/`
-  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-MD/line_result/test/`
-  `SPLICE/Baseline-result/GLANCE/result/BASE-Glance-LR/line_result/test/`
-  `SPLICE/Baseline-result/GLANCE/result/Glance_MD_full_threshold/line_result/test/'
-  'SPLICE/Baseline-result/GLANCE/result/MIT-LineDP/line_result/test/`
+The new `test` folder contains 14 evaluate output files corresponding to each models. For example, for `SPLICE/Baseline-`
 
-and then you need copy the result 
+`result/GLANCE/result/BASE-Glance-EA/line_result/test/`, the folder stores the 14 csv files result of `GLANCE-EA` from 
 
+`SPLICE/Baseline-result/GLANCE/result/BASE-Glance-MD/line_result/` for the respective releases:
 
+    'activemq-5.2.0', 'activemq-5.3.0', 'activemq-5.8.0', 'camel-2.10.0', 'camel-2.11.0' , 'derby-10.5.1.1' , 'groovy-1_6_BETA_2' , 'hbase-0.95.2', 'hive-0.12.0', 'jruby-1.5.0', 'jruby-1.7.0.preview1', 'lucene-3.0.0', 'lucene-3.1', 'wicket-1.5.3'
 
 
-  
-Run `get_evaluation_result.R` to get the result of RQ1 and RQ2 (may run in IDE or by the following command)
+### **Obtaining Result**
 
-`Rscript  get_evaluation_result.R`
+Run `RQ1_Compare.R`, `RQ2_Ablation.R`, `RQ3_Hit_and_Over.R` and `Dis-6.2-influence-of-threshold.R`to get the result of RQ1, RQ2, 
+
+RQ3 and Dis-6.2 (may run in IDE or by the following command)
+
+    Rscript  RQ1_Compare.R
 
 the result are figures that are sorted in `./figures`
 
