@@ -157,7 +157,7 @@ RQ3 and Dis-6.2 (may run in IDE or by the following command)
 
     Rscript  RQ1_Compare.R
 
-the result are figures that are sorted in `./figures`
+the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1_result`, `./Dis_result`
 
 ## Contact us
 
