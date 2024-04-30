@@ -1,6 +1,5 @@
 # The replication kit of Experiment
 
-## Title: Refining line-level defect prediction: Getting the best of both worlds by fusing syntactic and semantic features
 
 ## Datasets
 
