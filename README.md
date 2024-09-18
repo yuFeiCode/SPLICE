@@ -158,10 +158,8 @@ RQ3, Dis-6.2 and Dis-6.3 (may run in IDE or by the following command)
 
 the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1_result`, `./Dis_result`
 
-### **Dis-6.4 result **
-
+Dis-6.4 result： 
 We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset) that we used in our experiment can be found in this github
-
 To download the datasets into the ./Discuss/datasets folder and modify the datasets-path in the Baseline-result folder according to different configurations to generate extended results for all baseline results.
 
 ## Contact us
