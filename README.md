@@ -161,8 +161,9 @@ the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1
 Dis-6.4 result： 
 We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset) that we used in our experiment can be found in this github
 
-the releases we used Dis-6.4 :
-    ''ambari-2.4.0','ambari-2.5.0', 'ambari-2.6.0', 'ambari-2.7.0', 'calcite-1.15.0','calcite-1.16.0', 'calcite-1.17.0', 'calcite-1.18.0','groovy-2.4.6','groovy-2.4.8', 'groovy-2.5.0', 'groovy-2.5.5','mng-3.2.0','mng-3.3.0', 'mng-3.5.0', 'mng-3.6.0', 'nifi-0.4.0','nifi-1.2.0', 'nifi-1.5.0', 'nifi-1.8.0','nutch-1.12','nutch-1.13', 'nutch-1.14', 'nutch-1.15', 'zookeeper-3.4.6','zookeeper-3.5.1', 'zookeeper-3.5.2', 'zookeeper-3.5.3'
+the releases we used in Dis-6.4 :
+
+    'ambari-2.4.0', 'ambari-2.5.0', 'ambari-2.6.0', 'ambari-2.7.0', 'calcite-1.15.0', 'calcite-1.16.0', 'calcite-1.17.0', 'calcite-1.18.0', 'groovy-2.4.6', 'groovy-2.4.8', 'groovy-2.5.0', 'groovy-2.5.5', 'mng-3.2.0', 'mng-3.3.0', 'mng-3.5.0', 'mng-3.6.0', 'nifi-0.4.0', 'nifi-1.2.0', 'nifi-1.5.0', 'nifi-1.8.0', 'nutch-1.12', 'nutch-1.13', 'nutch-1.14', 'nutch-1.15', 'zookeeper-3.4.6', 'zookeeper-3.5.1', 'zookeeper-3.5.2', 'zookeeper-3.5.3'
 
 To download the datasets into the ./Discuss/datasets folder and modify the datasets-path in the Baseline-result folder according to different configurations to generate extended results for all baseline results.
 
