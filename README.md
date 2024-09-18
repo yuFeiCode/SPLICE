@@ -162,7 +162,7 @@ the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1
 
 We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset) that we used in our experiment can be found in this github
 
-download the datasets in folder  `./Discuss/datasets` and change `datasets-path` in folder Baseline-result to get extend result of all baseline result 
+To download the datasets into the ./Discuss/datasets folder and modify the datasets-path in the Baseline-result folder according to different configurations to generate extended results for all baseline results.
 
 ## Contact us
 
