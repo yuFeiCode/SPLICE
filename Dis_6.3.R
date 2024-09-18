@@ -12,7 +12,7 @@ library(ScottKnottESD)
 library(dplyr)
 library(tibble)
 
-save.fig.dir = 'D:/Gitee-code/Boosting deep line-level defect prediction with syntactic features/major_revision/figures/RQ1_figures/'
+save.fig.dir = './Dis_result/'
 
 dir.create(file.path(save.fig.dir), showWarnings = FALSE)
 
