@@ -152,15 +152,17 @@ The new `test` folder contains 14 evaluate output files corresponding to each mo
 
 Run `RQ1_Compare.R`, `RQ2_Ablation.R`, `RQ3_Hit_and_Over.R` and `Dis-6.2-influence-of-threshold.R`to get the result of RQ1, RQ2, 
 
-RQ3 and Dis-6.2 (may run in IDE or by the following command)
+RQ3, Dis-6.2 and Dis-6.3 (may run in IDE or by the following command)
 
     Rscript  RQ1_Compare.R
 
 the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1_result`, `./Dis_result`
 
-### **Discusss section result **
+### **Dis-6.4 result **
 
 We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset) that we used in our experiment can be found in this github
+
+download the datasets in folder  `./Discuss/datasets` and change `datasets-path` in folder Baseline-result to get extend result of all baseline result 
 
 ## Contact us
 
