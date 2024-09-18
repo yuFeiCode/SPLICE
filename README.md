@@ -160,7 +160,7 @@ the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1
 
 ### **Discusss section result **
 
-We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset)
+We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset) that we used in our experiment can be found in this github
 
 ## Contact us
 
