@@ -158,6 +158,10 @@ RQ3 and Dis-6.2 (may run in IDE or by the following command)
 
 the result are figures that are sorted in `./RQ1_result`, `./RQ1_result`, `./RQ1_result`, `./Dis_result`
 
+### **Discusss section result **
+
+We also conducted additional experiments using datasets  The [datasets](https://github.com/Naplues/BugDet/tree/master/Dataset)
+
 ## Contact us
 
 **Mail**: zyf@stu.gxnu.edu.cn
