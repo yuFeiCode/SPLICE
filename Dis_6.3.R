@@ -48,7 +48,7 @@ get.top.k.tokens = function(df, k)
 }
 
 
-prediction_dir = 'D:/Gitee-code/Boosting deep line-level defect prediction with syntactic features/all_models_result/within-release/'
+prediction_dir = './Baseline-result/DeepLineDP/output/prediction/DeepLineDP/within-release/'
 
 
 all_files = list.files(prediction_dir)
@@ -61,7 +61,8 @@ for(f in all_files)
   df_all <- rbind(df_all, df)
 }
 
-CEandNFCdir = "D:/Gitee-code/Boosting deep line-level defect prediction with syntactic features/all_models_result/Glance_MD_full_threshold/line_result/test/"
+
+CEandNFCdir = "./Baseline-result/GLANCE/result/Glance_MD_full_threshold/line_result/test/"
 
 all_CEandNF_files = list.files(CEandNFCdir)
 
